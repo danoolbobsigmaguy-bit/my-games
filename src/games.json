@@ -1,0 +1,44 @@
+[
+  {
+    "id": "slope",
+    "title": "Slope",
+    "url": "https://kdata1.com/2020/05/slope/",
+    "thumbnail": "https://picsum.photos/seed/slope/400/300",
+    "category": "Action"
+  },
+  {
+    "id": "tunnel-rush",
+    "title": "Tunnel Rush",
+    "url": "https://kdata1.com/2020/05/tunnel-rush/",
+    "thumbnail": "https://picsum.photos/seed/tunnel/400/300",
+    "category": "Action"
+  },
+  {
+    "id": "2048",
+    "title": "2048",
+    "url": "https://play2048.co/",
+    "thumbnail": "https://picsum.photos/seed/2048/400/300",
+    "category": "Puzzle"
+  },
+  {
+    "id": "tetris",
+    "title": "Tetris",
+    "url": "https://tetris.com/play-tetris",
+    "thumbnail": "https://picsum.photos/seed/tetris/400/300",
+    "category": "Puzzle"
+  },
+  {
+    "id": "cookie-clicker",
+    "title": "Cookie Clicker",
+    "url": "https://orteil.dashnet.org/cookieclicker/",
+    "thumbnail": "https://picsum.photos/seed/cookie/400/300",
+    "category": "Idle"
+  },
+  {
+    "id": "retro-bowl",
+    "title": "Retro Bowl",
+    "url": "https://game316011.konggames.com/gamez/0031/6011/live/index.html",
+    "thumbnail": "https://picsum.photos/seed/retro/400/300",
+    "category": "Sports"
+  }
+]

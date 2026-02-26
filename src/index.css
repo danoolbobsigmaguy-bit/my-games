@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Outfit:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Outfit:wght@400;600;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-primary: #00ff41;
+  --color-brand-bg: #0a0a0a;
+  --color-brand-surface: #151515;
+  --color-brand-border: #252525;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-bg text-white font-sans antialiased;
+  }
+}
+
+.game-card-hover {
+  @apply transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_20px_rgba(0,255,65,0.2)] hover:border-brand-primary/50;
+}
+
+.glass-panel {
+  @apply bg-brand-surface/80 backdrop-blur-md border border-brand-border;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-primary: #00ff41;
+  --color-brand-bg: #0a0a0a;
+  --color-brand-surface: #151515;
+  --color-brand-border: #252525;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-bg text-white font-sans antialiased;
+  }
+}
+
+.game-card-hover {
+  @apply transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_20px_rgba(0,255,65,0.2)] hover:border-brand-primary/50;
+}
+
+.glass-panel {
+  @apply bg-brand-surface/80 backdrop-blur-md border border-brand-border;
+}
+
